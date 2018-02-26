@@ -1,0 +1,15 @@
+- git: {local-name: fetchpy, uri: 'https://github.com/jontromanab/fetchpy.git'}
+- git: {local-name: prpy, uri: 'https://github.com/personalrobotics/prpy'}
+- git: {local-name: openrave_catkin, uri: 'https://github.com/personalrobotics/openrave_catkin'}
+- git: {local-name: or_parabolicsmoother, uri: 'https://github.com/personalrobotics/or_parabolicsmoother'}
+- git: {local-name: or_trajopt, uri: 'https://github.com/personalrobotics/or_trajopt'}
+- git: {local-name: or_cdchomp, uri: 'https://github.com/personalrobotics/or_cdchomp'}
+- git: {local-name: or_urdf, uri: 'https://github.com/personalrobotics/or_urdf'}
+- git: {local-name: or_rviz, uri: 'https://github.com/personalrobotics/or_rviz'}
+- git: {local-name: or_fcl, uri: 'https://github.com/personalrobotics/or_fcl'}
+- git: {local-name: or_ompl, uri: 'https://github.com/personalrobotics/or_ompl'}
+- git: {local-name: comps, uri: 'https://github.com/personalrobotics/comps'}
+- git: {local-name: pr_control_msgs, uri: 'https://github.com/personalrobotics/pr_control_msgs'}
+- git: {local-name: tsr, uri: 'https://github.com/personalrobotics/tsr'}
+- git: {local-name: ros_control_client, uri: 'https://github.com/personalrobotics/ros_control_client'}
+- git: {local-name: fetch_ros, uri: 'https://github.com/fetchrobotics/fetch_ros'}
