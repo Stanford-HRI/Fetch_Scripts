@@ -17,12 +17,21 @@ if __name__ == '__main__':
       rospy.init_node('TrajOpt_Demo')
       initJointState = GetJointState()
       arm = FetchArmObj()
-      #finalJointState = initJointState[:]
-      #finalJointState[2] = -2.0
-      finalJointState = np.array([0.0]*len(arm.jointNames))
+      finalJointState = initJointState[:]
+      finalJointState[2] = -0.3
+      #finalJointState = np.array([0.0]*len(arm.jointNames))
       arm.planTrajectory(initJointState, finalJointState)
       arm.moveToGoal()
-      rospy.spin()
+      #rospy.spin()
   except rospy.ROSInterruptException:
     pass
-    
+
+''' 
+rospy.init_node('TrajOpt_Demo')
+initJointState = GetJointState()
+arm = FetchArmObj()
+finalJointState = initJointState[:]
+finalJointState[2] = -2.0
+#finalJointState = np.array([0.0]*len(arm.jointNames))
+arm.planTrajectory(initJointState, finalJointState)
+'''
